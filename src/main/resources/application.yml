@@ -21,11 +21,8 @@ spring:
 ---
 
 spring:
-  profiles: dev
+  profiles: cloud
   datasource:
-    url: jdbc:mysql://localhost:3306/cars
-    username: root
-    password: password
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
